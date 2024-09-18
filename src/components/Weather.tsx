@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState} from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Weather.css';
 import search_icon from '../assets/search.png';
 import clear_icon from '../assets/clear.png';
 import cloud_icon from '../assets/cloud.png';
+
 import drizzle_icon from '../assets/drizzle.png';
 import humidity_icon from '../assets/humidity.png';
 import rain_icon from '../assets/rain.png';
